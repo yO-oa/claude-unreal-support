@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentation
+    url: https://echoulen.github.io/claude-unreal/docs/
+    about: Installation, tool reference, troubleshooting, and common workflows. Most setup issues are covered here.
+  - name: 🌐 Website
+    url: https://echoulen.github.io/claude-unreal/
+    about: Product overview, demos, FAQ, and pricing.
+  - name: 🛒 Buy on Fab Marketplace
+    url: https://fab.com/
+    about: Search for "ClaudeUnreal" to purchase the plugin.

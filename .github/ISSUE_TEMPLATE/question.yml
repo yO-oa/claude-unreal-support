@@ -1,0 +1,60 @@
+name: ❓ Question
+description: Usage / setup / how-to question that isn't covered by the docs.
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check the [documentation](https://echoulen.github.io/claude-unreal/docs/) and [troubleshooting guide](https://echoulen.github.io/claude-unreal/docs/troubleshooting/) first — most setup questions are covered there.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What are you trying to figure out?
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried?
+      description: Which docs / tools / commands have you already looked at?
+    validations:
+      required: false
+
+  - type: input
+    id: plugin-version
+    attributes:
+      label: ClaudeUnreal plugin version
+      placeholder: "e.g. 0.3.5"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: ue-version
+    attributes:
+      label: Unreal Engine version
+      options:
+        - "5.7.0"
+        - "5.7.1"
+        - "5.7.2"
+        - "5.7.3"
+        - "5.7.4"
+        - "Other"
+        - "N/A — general question"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - "macOS (Apple Silicon)"
+        - "macOS (Intel)"
+        - "Windows"
+        - "N/A — general question"
+    validations:
+      required: false

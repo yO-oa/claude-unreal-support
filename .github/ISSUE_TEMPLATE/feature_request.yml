@@ -1,0 +1,74 @@
+name: ✨ Feature request
+description: Propose a new editor command, MCP tool, or extension to an existing one.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. The most actionable feature requests are ones grounded in a concrete UE5 task you're trying to automate.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / use case
+      description: What are you trying to do in Unreal Engine that's currently impossible or awkward via ClaudeUnreal?
+      placeholder: "I want Claude to be able to … but there's no tool for it today, so I'm doing it manually."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which tool category does this belong to? (Pick "Other / new category" if unsure.)
+      options:
+        - "Scene & Actors"
+        - "Assets"
+        - "Blueprints"
+        - "UMG Widgets"
+        - "Materials"
+        - "Animation"
+        - "Sequencer"
+        - "Landscape & Foliage"
+        - "Physics"
+        - "Mesh"
+        - "World Partition"
+        - "AI Systems"
+        - "Niagara VFX"
+        - "Audio"
+        - "Input"
+        - "Build & Packaging"
+        - "Game Simulation"
+        - "PCG"
+        - "Camera"
+        - "Meta / batch helpers"
+        - "Other / new category"
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed tool / command shape
+      description: What would the call look like, ideally? Parameter names, expected return, examples.
+      render: bash
+      placeholder: 'cu exec my_new_tool --params-json ''{"foo": "bar", "count": 3}'''
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives / workarounds
+      description: What are you doing today as a workaround? Any related existing tools you've tried?
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Links to UE5 docs, screenshots of the editor UI you'd want to automate, related issues.
+    validations:
+      required: false

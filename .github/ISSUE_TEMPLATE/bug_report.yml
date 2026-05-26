@@ -1,0 +1,101 @@
+name: 🐛 Bug report
+description: Something in the ClaudeUnreal plugin, `cu` CLI, or MCP tools is broken or behaves unexpectedly.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug report. Please fill in as much detail as you can — issues with a clear repro and Output Log excerpt are triaged first.
+
+  - type: input
+    id: plugin-version
+    attributes:
+      label: ClaudeUnreal plugin version
+      description: Find this under **Edit → Plugins → ClaudeUnreal**, or in the plugin's `.uplugin` file (`VersionName`).
+      placeholder: "e.g. 0.3.5"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: ue-version
+    attributes:
+      label: Unreal Engine version
+      options:
+        - "5.7.0"
+        - "5.7.1"
+        - "5.7.2"
+        - "5.7.3"
+        - "5.7.4"
+        - "Other (specify in Additional context)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - "macOS (Apple Silicon)"
+        - "macOS (Intel)"
+        - "Windows"
+        - "Both / Multiple"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A concise description of the actual behaviour.
+      placeholder: "When I call X, the editor returns Y instead of doing Z."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      description: What should have happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      description: Minimal steps to reproduce. Number them.
+      placeholder: |
+        1. Open a fresh UE5 project with ClaudeUnreal enabled.
+        2. Run `cu exec spawn_actor --params-json '{"class": "..."}'`.
+        3. Observe error in Output Log.
+    validations:
+      required: true
+
+  - type: textarea
+    id: tool-call
+    attributes:
+      label: The tool call / `cu` command that failed
+      description: Paste the exact MCP tool call or `cu exec` command, including parameters.
+      render: bash
+      placeholder: 'cu exec spawn_actor --params-json ''{"class_path": "/Engine/BasicShapes/Cube"}'''
+    validations:
+      required: false
+
+  - type: textarea
+    id: output-log
+    attributes:
+      label: Output Log excerpt
+      description: The relevant portion of UE5's Output Log around the failure. Trim to what's relevant.
+      render: shell
+      placeholder: "[2026.05.26-09.15.00:123][  0]LogClaudeUnreal: Warning: ..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Anything else — screenshots, related issues, custom project settings, recent changes.
+    validations:
+      required: false

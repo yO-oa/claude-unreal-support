@@ -1,16 +1,80 @@
-# Claude Unreal — Support
+<div align="center">
 
-Public support tracker for **Claude Unreal**, the AI Agent MCP server for Unreal Engine 5.
+# Claude Unreal
 
-> The plugin source code is shipped via [Fab Marketplace](https://fab.com/) and is **not** hosted here.
-> This repository exists so customers can file bug reports, request features, and ask questions without needing access to the private source repo.
+### Control Unreal Engine 5 with natural language.
 
-## Links
+An **MCP server** that lets **Claude Code** — or any MCP client (Cursor, Cline, Windsurf, Antigravity) — drive the Unreal Editor directly: spawn actors, wire Blueprints, build UMG menus, tune Niagara VFX, direct Sequencer cameras, sculpt landscapes, grow PCG worlds, and package builds.
 
-- 🌐 **Website:** https://echoulen.github.io/claude-unreal/
-- 📖 **Documentation:** https://echoulen.github.io/claude-unreal/docs/
-- 🛒 **Buy on Fab Marketplace:** search for *ClaudeUnreal* at https://fab.com/
-- 🐛 **File an issue:** https://github.com/yO-oa/claude-unreal-support/issues/new/choose
+[![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.7%20%26%205.8-0E1128?logo=unrealengine&logoColor=white)](https://www.unrealengine.com)
+[![MCP](https://img.shields.io/badge/Model%20Context%20Protocol-server-6E56CF)](https://modelcontextprotocol.io/)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-lightgrey)]()
+[![Get it on Fab](https://img.shields.io/badge/Fab-Get%20it%20%E2%80%94%20%2499-FF6B00)](https://www.fab.com/listings/4ee41200-fc67-480d-8857-4319ec5cdf72)
+
+**[Website](https://echoulen.github.io/claude-unreal/)** ·
+**[Documentation](https://echoulen.github.io/claude-unreal/docs/)** ·
+**[Get it on Fab](https://www.fab.com/listings/4ee41200-fc67-480d-8857-4319ec5cdf72)** ·
+**[YouTube](https://www.youtube.com/@Yooadev)**
+
+<a href="https://youtu.be/V5CfOqai6Q0">
+  <img src="https://img.youtube.com/vi/V5CfOqai6Q0/maxresdefault.jpg" alt="Claude Unreal showreel" width="640">
+</a>
+
+**▶ [Watch the 52-second showreel](https://youtu.be/V5CfOqai6Q0)**
+
+</div>
+
+---
+
+## What it is
+
+You type what you want in plain English. The agent does it in your live Unreal Editor — no boilerplate, no clicking through menus, no writing editor utilities.
+
+```
+> Build me a walled town from this spline, with a gate facing the road
+> Turn this spaghetti Blueprint into a clean, commented graph
+> Light this scene for golden hour and give me a cinematic flythrough
+```
+
+Claude Unreal exposes **16 typed MCP tools** for the hot path (spawn / move / inspect / screenshot) plus a bundled **`cu` CLI** reaching all **486 commands across 23 categories** — Blueprint, UMG, Niagara, Sequencer, materials, lighting, landscape, PCG, packaging, and more. The split keeps session-start context small while preserving full editor control.
+
+On **UE 5.8** it can also mount its entire toolset onto Unreal's built-in official MCP server, so any agent that already speaks UE's official MCP gets the whole surface from one endpoint.
+
+## Watch it work
+
+Every episode is one unscripted session — the agent builds it live.
+
+| # | Episode | # | Episode |
+|---|---|---|---|
+| 18 | [Grows a Medieval Town (PCG Splines)](https://youtu.be/P_t38d9YEt4) | 9 | [Builds a Brand Reveal (Materials + 3D Text)](https://youtu.be/Ohu41IaiGtA) |
+| 17 | [Builds a Volcanic Caldera (Niagara Eruption)](https://youtu.be/0VAk1lwIG20) | 8 | [Directs a Cinematic Camera (Sequencer)](https://youtu.be/iU3twT9ayfg) |
+| 16 | [Builds a Photoreal Alpine Scene (Water + PCG)](https://youtu.be/5ylAx-yAaBk) | 7 | [Grows a Procedural Forest (PCG)](https://youtu.be/o2df5KTY7ks) |
+| 15 | [Builds a Procedural Terrain World (Landscape)](https://youtu.be/KxN_jKzGyCU) | 6 | [Builds an Animated Material](https://youtu.be/ZglR9ZndtZc) |
+| 14 | [Mounting on UE 5.8's Official MCP Server](https://youtu.be/XaCHZUSsFp8) | 5 | [Builds a Pause Menu (UMG)](https://youtu.be/IxQuL_By5uk) |
+| 13 | [Cleans Up a Spaghetti Blueprint](https://youtu.be/PNlYYRKdSog) | 4 | [Tunes Niagara VFX (Standard vs Stateless)](https://youtu.be/tjgaBGr2j-Y) |
+| 12 | [Builds a Walled Town from One Spline](https://youtu.be/ILctPrTZjos) | 3 | [Builds Enhanced Input Controls](https://youtu.be/C_8y6O_4lHs) |
+| 11 | [Assembles a Castle (Level Instances)](https://youtu.be/1BVWA_CBbTo) | 2 | [Places Actors from Natural Language](https://youtu.be/WgFBCEFLkQk) |
+| 10 | [Builds a Locomotion State Machine (Anim BP)](https://youtu.be/_hFzSk0BhYk) | 1 | [Automates Blueprint Editing](https://youtu.be/ktWlLYWJQks) |
+
+**[▶ All episodes on YouTube](https://www.youtube.com/@Yooadev)**
+
+## Get it
+
+**[Get Claude Unreal on Fab — $99, one-time, full source included](https://www.fab.com/listings/4ee41200-fc67-480d-8857-4319ec5cdf72)**
+
+Requirements: Unreal Engine 5.7 or 5.8, Python 3.12+, and an MCP client (Claude Code, Cursor, Cline, Windsurf, …).
+Setup takes about two minutes — the plugin auto-configures `.mcp.json` for your project on first launch, so an agent started from your own terminal, VS Code, or Cursor gets identical editor control.
+
+📖 **[Full installation guide →](https://echoulen.github.io/claude-unreal/docs/installation/)**
+
+---
+
+# Support
+
+This repository is the **public support tracker** for Claude Unreal.
+
+> The plugin ships via [Fab Marketplace](https://www.fab.com/listings/4ee41200-fc67-480d-8857-4319ec5cdf72) and its source is **not** hosted here.
+> This repo exists so customers can file bug reports, request features, and ask questions without needing access to the private source repo.
 
 ## Before filing an issue
 
@@ -20,7 +84,7 @@ Public support tracker for **Claude Unreal**, the AI Agent MCP server for Unreal
 
 ## Filing an issue
 
-Pick the template that matches:
+**[→ File an issue](https://github.com/yO-oa/claude-unreal-support/issues/new/choose)** — pick the template that matches:
 
 - **Bug report** — something broke or behaves unexpectedly.
 - **Feature request** — propose a new tool / command or extend an existing one.

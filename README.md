@@ -46,15 +46,16 @@ Every episode is one unscripted session — the agent builds it live.
 
 | # | Episode | # | Episode |
 |---|---|---|---|
-| 18 | [Grows a Medieval Town (PCG Splines)](https://youtu.be/P_t38d9YEt4) | 9 | [Builds a Brand Reveal (Materials + 3D Text)](https://youtu.be/Ohu41IaiGtA) |
-| 17 | [Builds a Volcanic Caldera (Niagara Eruption)](https://youtu.be/0VAk1lwIG20) | 8 | [Directs a Cinematic Camera (Sequencer)](https://youtu.be/iU3twT9ayfg) |
-| 16 | [Builds a Photoreal Alpine Scene (Water + PCG)](https://youtu.be/5ylAx-yAaBk) | 7 | [Grows a Procedural Forest (PCG)](https://youtu.be/o2df5KTY7ks) |
-| 15 | [Builds a Procedural Terrain World (Landscape)](https://youtu.be/KxN_jKzGyCU) | 6 | [Builds an Animated Material](https://youtu.be/ZglR9ZndtZc) |
-| 14 | [Mounting on UE 5.8's Official MCP Server](https://youtu.be/XaCHZUSsFp8) | 5 | [Builds a Pause Menu (UMG)](https://youtu.be/IxQuL_By5uk) |
-| 13 | [Cleans Up a Spaghetti Blueprint](https://youtu.be/PNlYYRKdSog) | 4 | [Tunes Niagara VFX (Standard vs Stateless)](https://youtu.be/tjgaBGr2j-Y) |
-| 12 | [Builds a Walled Town from One Spline](https://youtu.be/ILctPrTZjos) | 3 | [Builds Enhanced Input Controls](https://youtu.be/C_8y6O_4lHs) |
-| 11 | [Assembles a Castle (Level Instances)](https://youtu.be/1BVWA_CBbTo) | 2 | [Places Actors from Natural Language](https://youtu.be/WgFBCEFLkQk) |
-| 10 | [Builds a Locomotion State Machine (Anim BP)](https://youtu.be/_hFzSk0BhYk) | 1 | [Automates Blueprint Editing](https://youtu.be/ktWlLYWJQks) |
+| 20 | [67-House Medieval Town (Town Planner)](https://youtu.be/2EFuMX3zanE) | 10 | [Builds a Locomotion State Machine (Anim BP)](https://youtu.be/_hFzSk0BhYk) |
+| 19 | [Interactive House Picker (Workflows)](https://youtu.be/I7JZoKy3mpU) | 9 | [Builds a Brand Reveal (Materials + 3D Text)](https://youtu.be/Ohu41IaiGtA) |
+| 18 | [Grows a Medieval Town (PCG Splines)](https://youtu.be/P_t38d9YEt4) | 8 | [Directs a Cinematic Camera (Sequencer)](https://youtu.be/iU3twT9ayfg) |
+| 17 | [Builds a Volcanic Caldera (Niagara Eruption)](https://youtu.be/0VAk1lwIG20) | 7 | [Grows a Procedural Forest (PCG)](https://youtu.be/o2df5KTY7ks) |
+| 16 | [Builds a Photoreal Alpine Scene (Water + PCG)](https://youtu.be/5ylAx-yAaBk) | 6 | [Builds an Animated Material](https://youtu.be/ZglR9ZndtZc) |
+| 15 | [Builds a Procedural Terrain World (Landscape)](https://youtu.be/KxN_jKzGyCU) | 5 | [Builds a Pause Menu (UMG)](https://youtu.be/IxQuL_By5uk) |
+| 14 | [Mounting on UE 5.8's Official MCP Server](https://youtu.be/XaCHZUSsFp8) | 4 | [Tunes Niagara VFX (Standard vs Stateless)](https://youtu.be/tjgaBGr2j-Y) |
+| 13 | [Cleans Up a Spaghetti Blueprint](https://youtu.be/PNlYYRKdSog) | 3 | [Builds Enhanced Input Controls](https://youtu.be/C_8y6O_4lHs) |
+| 12 | [Builds a Walled Town from One Spline](https://youtu.be/ILctPrTZjos) | 2 | [Places Actors from Natural Language](https://youtu.be/WgFBCEFLkQk) |
+| 11 | [Assembles a Castle (Level Instances)](https://youtu.be/1BVWA_CBbTo) | 1 | [Automates Blueprint Editing](https://youtu.be/ktWlLYWJQks) |
 
 **[▶ All episodes on YouTube](https://www.youtube.com/@Yooadev)**
 

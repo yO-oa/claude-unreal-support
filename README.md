@@ -63,7 +63,7 @@ Every episode is one unscripted session — the agent builds it live.
 
 **[Get Claude Unreal on Fab — $99, one-time, full source included](https://www.fab.com/listings/4ee41200-fc67-480d-8857-4319ec5cdf72)**
 
-Requirements: Unreal Engine 5.7 or 5.8, Python 3.12+, and an MCP client (Claude Code, Cursor, Cline, Windsurf, …).
+Requirements: Unreal Engine 5.7 or 5.8, Python 3.10+ (auto-installed by `uv`), and an MCP client (Claude Code, Cursor, Cline, Windsurf, …).
 Setup takes about two minutes — the plugin auto-configures `.mcp.json` for your project on first launch, so an agent started from your own terminal, VS Code, or Cursor gets identical editor control.
 
 📖 **[Full installation guide →](https://echoulen.github.io/claude-unreal/docs/installation/)**
